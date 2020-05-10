@@ -17,7 +17,7 @@ services:
       - gerrit-cache-volume:/var/gerrit/cache
     image: gerritcodereview/gerrit:latest
     environment:
-      - CANONICAL_WEB_URL=http://localhost
+      - CANONICAL_WEB_URL=http://192.168.99.100
   sonarqube:
     ports:
       - "9000:9000"
