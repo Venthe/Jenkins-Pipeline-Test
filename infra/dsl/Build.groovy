@@ -1,4 +1,4 @@
-job("Build") {
+job("${env.BRANCH}/Build") {
 	description()
 	keepDependencies(false)
 	parameters {
