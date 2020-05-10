@@ -57,10 +57,9 @@ branches.each{
     }
     
     steps {
-      shell("git status")
-      
       dsl {
         external('infra/dsl/*.groovy') 
+        external('infra/dsl/*.Jenkinsfile') 
       }
     }
 
