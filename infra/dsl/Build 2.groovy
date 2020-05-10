@@ -1,4 +1,4 @@
-job("${BRANCH}/Build 2") {
+job("${BRANCH}/Build2") {
 	description()
 	keepDependencies(false)
 	parameters {
