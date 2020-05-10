@@ -2,7 +2,7 @@ job("${BRANCH}/Build") {
 	description()
 	keepDependencies(false)
 	parameters {
-		stringParam("Revision", "master", "")
+		stringParam("Revision", BRANCH, "")
 	}
 	scm {
 		git {
